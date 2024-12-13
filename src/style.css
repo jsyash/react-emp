@@ -1,0 +1,46 @@
+.profile-cards-container {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+}
+
+.profile-card {
+  width: 200px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background: #fff;
+  text-align: center;
+  padding: 15px;
+  position: relative;
+}
+
+.status {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: bold;
+  color: #333;
+}
+
+.profile-image {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin: 20px auto;
+  border: 2px solid #ddd;
+}
+
+.name {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.text {
+  font-size: 14px;
+  color: #666;
+  margin: 5px 0;
+}
